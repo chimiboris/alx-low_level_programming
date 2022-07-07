@@ -1,45 +1,23 @@
 #include <stdio.h>
-
 /**
+ * main - Entry Point
  *
- *  * main - Entry Point
+ * Return: Always 0 (success)
  *
- *   *
- *
- *    * Return: Always 0 (success)
- *
- *     *
- *
- *      */
-
+ */
 int main(void)
-
 {
+	char lower_case = 'a';
 
-		char lower_case = 'a';
+	while (lower_case <= 'z')
 
-
-
-			while (lower_case <= 'z')
-
-
-
-					{
-
-								if (lower_case != 'e' && lower_case != 'q')
-
-										{
-
-													putchar(lower_case);
-
-														}
-
-											lower_case++;
-
-												}
-
-				putchar('\n');
-
-					return (0);
-
+	{
+		if (lower_case != 'e' && lower_case != 'q')
+	{
+		putchar(lower_case);
+	}
+			lower_case++;
+	}
+	putchar('\n');
+	return (0);
 }
