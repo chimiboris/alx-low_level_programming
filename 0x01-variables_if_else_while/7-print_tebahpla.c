@@ -1,39 +1,20 @@
 #include <stdio.h>
-
 /**
+ * main - Entry point
  *
- *  * main - Entry point
+ * Return: Always o (success)
  *
- *   *
- *
- *    * Return: Always o (success)
- *
- *     *
- *
- *      */
-
+ */
 int main(void)
-
 {
+	char reverse_alpha = 'z';
 
-		char reverse_alpha = 'z';
+	while (reverse_alpha >= 'a')
 
-
-
-			while (reverse_alpha >= 'a')
-
-
-
-					{
-
-								putchar(reverse_alpha);
-
-										reverse_alpha--;
-
-											}
-
-					putchar('\n');
-
-						return (0);
-
+	{
+		putchar(reverse_alpha);
+		reverse_alpha--;
+	}
+		putchar('\n');
+	return (0);
 }
