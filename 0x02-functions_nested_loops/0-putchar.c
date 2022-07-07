@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- *  * main - Entry point
- *   * Description: prints 'Holberton \n'
- *    * Return: Always 0 (success)
- *     */
+*main - Entry point
+*Description: prints 'Holberton \n'
+*Return: Always 0 (success)
+*/
 
 int main(void)
 
