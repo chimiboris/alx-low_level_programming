@@ -1,35 +1,51 @@
+#include <stdio.h>
+
 #include "main.h"
+
+
 
 /**
  *
- * * main - Entry point
+ *  * main - Entry point
  *
- * * Return: nothing, return void
+ *   * Description: prints 'Holberton \n'
  *
- * */
+ *    * Return: Always 0 (success)
+ *
+ *     */
+
+
 
 int main(void)
+	
+	
+	
+{
+
+
+
+char str[] = "_putchar\n";
+
+int i = 0;
+
+
+
+while (str[i] != '\0')
 
 {
 
-	_putchar('_');
 
-	_putchar('p');
 
-	_putchar('u');
+char c = str[i];
 
-	_putchar('t');
+_putchar(c);
 
-	_putchar('c');
-
-	_putchar('h');
-
-	_putchar('a');
-
-	_putchar('r');
-
-	_putchar('\n');
-
-	return (0);
+i++;
 
 }
+
+	return (0);
+	
+	
+	
+	}}
