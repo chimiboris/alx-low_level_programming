@@ -3,14 +3,13 @@
 #include <stdio.h>
 
 /**
+ * _abs - value absolute
  *
- * * _abs - value absolute
+ * *@n: The int to print
  *
- * * *@n: The int to print
+ * Return: Always 0.
  *
- * * Return: Always 0.
- *
- * */
+ */
 
 int _abs(int n)
 
