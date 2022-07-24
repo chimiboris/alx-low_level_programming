@@ -1,42 +1,38 @@
 #include "main.h"
 
-#include <stdio.h>
-
 /**
- * _abs - value absolute
- *
- * *@n: The int to print
- *
- * Return: Always 0.
- *
+ * _abs - Entry point
+ * @n: n is an integer
+ * Description: prints the absolute value of an integer
+ * Return: int
  */
 
 int _abs(int n)
 
 {
 
-	if (n < 0)
+if (n > 0)
 
-	{
+{
 
-		return (n * (-1));
+return (n);
 
-	}
+}
 
-	else if (n == 0)
+else if (n < 0)
 
-	{
+{
 
-		return (0);
+return (-n);
 
-	}
+}
 
-	else
+else
 
-	{
+{
 
-		return (n);
+return (n);
 
-	}
+}
 
 }
