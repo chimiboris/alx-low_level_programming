@@ -1,32 +1,34 @@
 #include "main.h"
 
 /**
- * _islower - Short description, single line
- *
- * @c: contains value to be compared
- *
- * Return: Always 0.
- *
+ * _islower - Entry point
+ * Description: checks is a character is lowercase
+ * @c: the integer value it receives
+ * Return: 1 if true. 0 if false.
  */
 
 int _islower(int c)
 
 {
 
-	if (c > 'a' && c < 'z')
+int i = 'a';
 
-	{
+for (i = 'a'; i <= 'z'; i++)
 
-		return (1);
+{
 
-	}
+/* refer int c*/
 
-	else
+if (c == i)
 
-	{
+{
 
-		return (0);
+return (1);
 
-	}
+}
+
+}
+
+return (0);
 
 }
